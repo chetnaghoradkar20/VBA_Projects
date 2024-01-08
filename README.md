@@ -2,9 +2,9 @@ The provided VBA (Visual Basic for Applications) script performs a specific task
 
 Purpose: The script's main objective is to extract specific data from various sheets within the current workbook and save this extracted data into separate files, each tailored to contain information relevant to a particular category.
 
-Extraction Criteria: The script targets specific sheets in the workbook, identified by their names (e.g., "RD_RAP," "WH EX (NON)," "INCLUSION," etc.), and extracts data from predetermined ranges within these sheets.
+Extraction Criteria: The script targets specific sheets in the workbook, identified by their names (e.g., "Sheet 1," "Sheet 2," "Sheet 3," etc.), and extracts data from predetermined ranges within these sheets.
 
-Custom File Creation: For each targeted sheet, a new file is created with a custom file name assigned from an array of predefined names ("RBC_RapaportSampleFile.xlsx," "WH-EX-NON.xlsx," etc.).
+Custom File Creation: For each targeted sheet, a new file is created with a custom file name assigned from an array of predefined names ("Sheet 1," "Sheet 2," etc.).
 
 Data Processing: Once the data is extracted, it is pasted into a sample format file ("Sample files round.xlsx") at predetermined target ranges within specific sheets matching the extracted data's nature.
 
